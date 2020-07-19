@@ -1,0 +1,43 @@
+part -1
+
+import neccesasry packages connect mongodb
+
+create userschema in model
+
+add passportLocalMongoose plugin to user model
+
+part -2
+
+create get and post - register
+....get ..register page
+create get and post - login
+.....get login page
+
+intialize the passport
+intialize the session
+
+part -3
+
+serializeUser
+deserializeUser
+
+intialize export session add secrets, resve,unintialied to it.
+
+
+part -4
+register post  passport.authencticate functionality
+
+
+login post
+
+passport.authencticate ufnciotnality
+if success : === > home
+if failuew : ==- > login
+
+part - 5
+
+logout -- req.logourt- -- >login page
+
+req.isauthencated... next().. home page else: login page
+
+add mdidle ware functionality to the home page route
